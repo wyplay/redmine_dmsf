@@ -27,7 +27,7 @@ gem 'uuidtools'
 gem 'dalli'
 
 gem 'sprockets-rails', '>= 2.0.0'
-gem 'sprockets', '>= 3.0.0'
+gem 'sprockets', '>= 3.0.0', '< 4.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
