@@ -26,14 +26,13 @@ gem 'simple_enum'
 gem 'uuidtools'
 gem 'dalli'
 
-gem 'sprockets-rails', '>= 2.0.0'
-gem 'sprockets', '>= 3.0.0', '< 4.0'
-
+gem 'sprockets-rails'
+gem 'sprockets'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails'
 
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 2.7.2'
+gem 'uglifier'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
