@@ -21,10 +21,20 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 gem 'rubyzip', '>= 1.1.3'
-gem 'zip-zip'
+#gem 'zip-zip'
 gem 'simple_enum'
 gem 'uuidtools'
 gem 'dalli'
+
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 5.0'
+
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '>= 2.7.2'
+
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+
 
 # Redmine extensions
 unless %w(easyproject easy_gantt).any? { |plugin| Dir.exist?(File.expand_path("../../#{plugin}", __FILE__)) }
