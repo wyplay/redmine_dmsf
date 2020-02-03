@@ -32,10 +32,10 @@ gem 'sprockets'
 gem 'sass-rails'
 
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier'
+#gem 'uglifier'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+#gem 'jquery-rails'
 
 
 # Redmine extensions
