@@ -26,17 +26,7 @@ gem 'simple_enum'
 gem 'uuidtools'
 gem 'dalli'
 
-gem 'sprockets-rails'
-gem 'sprockets'
-# Use SCSS for stylesheets
-gem 'sass-rails'
-
-# Use Uglifier as compressor for JavaScript assets
-#gem 'uglifier'
-
-# Use jquery as the JavaScript library
-#gem 'jquery-rails'
-
+gem "sprockets"
 
 # Redmine extensions
 unless %w(easyproject easy_gantt).any? { |plugin| Dir.exist?(File.expand_path("../../#{plugin}", __FILE__)) }
